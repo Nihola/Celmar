@@ -188,7 +188,7 @@ font-family: "Montserrat", sans-serif;
     }
 }
 
-@media(max-width:390px){
+@media(max-width:455px){
     .wrapper__list{
         display: flex;
         flex-direction: column;
@@ -209,5 +209,9 @@ font-family: "Montserrat", sans-serif;
     }
         .wrapper__img {
             max-width: 343px;
+        }
+        .wrapper__discount{
+            top: 20px;
+            left: 0;
         }
 }

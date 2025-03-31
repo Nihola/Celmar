@@ -376,7 +376,7 @@ a {
     max-width: 50%;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 455px) {
   .wrapper__list {
     display: flex;
     flex-direction: column;
@@ -397,6 +397,10 @@ a {
   }
   .wrapper__img {
     max-width: 343px;
+  }
+  .wrapper__discount {
+    top: 20px;
+    left: 0;
   }
 }
 .content .content__complex {
