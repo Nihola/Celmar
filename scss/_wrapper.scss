@@ -198,6 +198,11 @@ font-family: "Montserrat", sans-serif;
     }
     .wrapper__item{
         max-width: 343px;
+        display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
     }
     .wrapper__pic{
         max-width: 343px;
