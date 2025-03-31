@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__complex">
+                <div class="navbar__left">
+                    <img src="./sources/logo.svg" alt="logo" class="logo__img" data-aos="fade-up"
+                        data-aos-duration="3000">
+                    <div class="navbar__wrap">
+                        <p class="navbar__heading">Каталог</p>
+                        <i class="fa-solid fa-angle-down" style="color:rgba(19, 17, 23, 0.7);
+                        ;"></i>
+                    </div>
+                </div>
+                <div class="navbar__right">
+                    <i class="fa-solid fa-magnifying-glass" style="color: gray;" id="search__pic"></i>
+                    <img src="./sources/Container.png" alt="container" class="container__img">
+                    <img src="./sources/Button - Меню.png" alt="Bars" class="bars">
+                    <div class="navbar__inner">
+                        <p class="navbar__text">Режим работы:</p>
+                        <p class="navbar__text">Пн-Пт с 9:00 до 18:00:</p>
+                    </div>
+                    <a href="#" class="navbar__button" data-aos="fade-up" data-aos-duration="3000">Отдел продаж</a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="container">
+            <div class="crousel__complex">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-content">
+                            <h1 class="main__title" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                                data-aos-offset="500" data-aos-duration="500">Поломоечные
+                                машины</h1>
+                            <p class="main__text">Более 60 моделей в каталоге: Comac, Clemar, Tvx</p>
+                            <a href="#" class="main__button" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                                data-aos-offset="500" data-aos-duration="500">
+                                В каталог
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-content">
+                            <h1 class="main__title" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                                data-aos-offset="500" data-aos-duration="500">Поломоечные
+                                машины</h1>
+                            <p class="main__text">Более 60 моделей в каталоге: Comac, Clemar, Tvx</p>
+                            <a href="#" class="main__button" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                                data-aos-offset="500" data-aos-duration="500">
+                                В каталог
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="wrapper__complex">
+                <div class="wrapper__top">
+                    <h2 class="wrapper__title">Категории</h2>
+                    <div class="wrapper__inner">
+                        <p class="wrapper__text">Смотреть все</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+                </div>
+                <ul class="wrapper__list">
+                    <li class="wrapper__item">
+
+                        <img src="./sources/Figure → Link.png" alt="paper" class="wrapper__img" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
+                        <p class="wrapper__paragraph">Бумажная продукция</p>
+                    </li>
+                    <li class="wrapper__item">
+
+                        <img src="./sources/milk.jpg" alt="milk" class="wrapper__img" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
+                        <p class="wrapper__paragraph">Моющие средства</p>
+                    </li>
+                    <li class="wrapper__item">
+
+                        <img src="./sources/vc1.jpg" alt="vacuum cleaner" class="wrapper__img" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
+                        <p class="wrapper__paragraph">Поломоечные машины</p>
+                    </li>
+                    <li class="wrapper__item">
+
+                        <img src="./sources/vc2.jpg" alt="vacuum cleaner" class="wrapper__img" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
+                        <p class="wrapper__paragraph">Пылесосы</p>
+                    </li>
+                    <li class="wrapper__item">
+
+                        <img src="./sources/vc3.jpg" alt="vacuum cleaner" class="wrapper__img" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+
+                        <p class="wrapper__paragraph">Уборочные инвентарь</p>
+                    </li>
+
+                </ul>
+                <div class="wrapper__top">
+                    <h2 class="wrapper__title">Поломоечные машины</h2>
+                    <div class="wrapper__inner">
+                        <p class="wrapper__text">Смотреть все</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+                </div>
+                <ul class="wrapper__list">
+
+                    <li class="wrapper__item">
+                        <img src="./sources/vc21.jpg" alt="vacuum cleaner" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <div class="wrapper__box">
+                            <p class="wrapper__heading">T55/50B</p>
+                            <p class="wrapper__paragraph">Поломоечные машины</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+                    <li class="wrapper__item">
+                        <img src="./sources/vc22.jpg" alt="vacuum cleaner" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <div class="wrapper__box">
+                            <p class="wrapper__heading">T55B</p>
+                            <p class="wrapper__paragraph">Поломоечные машины</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+                    <li class="wrapper__item">
+                        <img src="./sources/vc23.jpg" alt="vacuum cleaner" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <div class="wrapper__box">
+                            <p class="wrapper__heading">T55/50BT</p>
+                            <p class="wrapper__paragraph">Поломоечные машины</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+                    <li class="wrapper__item">
+                        <img src="./sources/vc24.jpg" alt="vacuum cleaner" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <a href="#" class="wrapper__discount">СКИДКА</a>
+                        <div class="wrapper__box">
+                            <p class="wrapper__heading">T45/50B</p>
+                            <p class="wrapper__paragraph">Поломоечные машины</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+
+                </ul>
+                <div class="wrapper__top">
+                    <h2 class="wrapper__title">Бумажная продукция</h2>
+                    <div class="wrapper__inner">
+                        <p class="wrapper__text">Смотреть все</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+                </div>
+                <ul class="wrapper__list">
+
+                    <li class="wrapper__item">
+                        <img src="./sources/Figure → Link - Selpak Professional Extra Z-Сложенное полотенце для диспенсера.png"
+                            alt="paper" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <div class="wrapper__box">
+                            <p class="wrapper__info">Selpak Professional Extra Z-
+                                Сложенное полотенце для
+                                диспенсера</p>
+                            <p class="wrapper__paragraph">Бумажная продукция</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+                    <li class="wrapper__item">
+                        <img src="./sources/sens.jpg" alt="paper" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <div class="wrapper__box">
+                            <p class="wrapper__info">Sens Туалетная бумага 24 шт.</p>
+                            <p class="wrapper__paragraph">Бумажная продукция</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+                    <li class="wrapper__item">
+                        <img src="./sources/solo.jpg" alt="paper" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <div class="wrapper__box">
+                            <p class="wrapper__info">Solo Professional 1/6 Складные
+                                салфетки Официант 26,5×33 см
+                                100 шт.</p>
+                            <p class="wrapper__paragraph">Бумажная продукция</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+                    <li class="wrapper__item">
+                        <img src="./sources/selpak.jpg" alt="paper" class="wrapper__pic" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+                        <div class="wrapper__box">
+                            <p class="wrapper__info">Selpak Professional Extra
+                                Туалетная бумага 24 шт.</p>
+                            <p class="wrapper__paragraph">Бумажная продукция</p>
+                        </div>
+                        <a href="#" class="wrapper__button">Подробнее</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="content__complex">
+                <h2 class="content__title">Нам доверяют</h2>
+                <ul class="content__list">
+                    <li class="content__item">
+                        <img src="./sources/icon1.svg" alt="" class="content__img" data-aos="flip-left">
+                        <h3 class="content__heading">Безопасная оплата</h3>
+                        <p class="content__text">100% безопасная оплата</p>
+                    </li>
+                    <li class="content__item">
+                        <img src="./sources/icon2.svg" alt="" class="content__img" data-aos="flip-left">
+                        <h3 class="content__heading">Возврат в течение 30 дней</h3>
+                        <p class="content__text">Если у товара есть проблемы</p>
+                    </li>
+                    <li class="content__item">
+                        <img src="./sources/icon3.svg" alt="" class="content__img" data-aos="flip-left">
+                        <h3 class="content__heading">Бесплатная доставка</h3>
+                        <p class="content__text">Для всех заказов</p>
+                    </li>
+                    <li class="content__item">
+                        <img src="./sources/icon4.svg" alt="" class="content__img" data-aos="flip-left">
+                        <h3 class="content__heading">Поддержка 24/7</h3>
+                        <p class="content__text">Круглосуточная поддержка</p>
+                    </li>
+
+
+
+
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="container">
+            <div class="page__complex">
+                <h3 class="page__title">Нам доверяют</h3>
+                <ul class="page__list">
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/ki.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/exnopar.png" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/BYD.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item unique" data-aos="zoom-in-up">
+                        <img src="./sources/SAG.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/ortel.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/akfa.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/imzo.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item unique" data-aos="zoom-in-up">
+                        <img src="./sources/ecobozor.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/uzautomotors.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/mall.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/uzbekistanairveys.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item unique" data-aos="zoom-in-up">
+                        <img src="./sources/metro.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/itpark.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/pepsi.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/cola.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item unique" data-aos="zoom-in-up">
+                        <img src="./sources/ToshkentCity.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/uzum.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/hilton.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/Hyatt.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item unique" data-aos="zoom-in-up">
+                        <img src="./sources/intercontinental.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/sofia.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/giotto.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item" data-aos="zoom-in-up">
+                        <img src="./sources/look.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item unique" data-aos="zoom-in-up">
+                        <img src="./sources/caex.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item different" data-aos="zoom-in-up">
+                        <img src="./sources/cae.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item different" data-aos="zoom-in-up">
+                        <img src="./sources/enter.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item different" data-aos="zoom-in-up">
+                        <img src="./sources/silk_rout_samarqand.svg" alt="advertisement" class="page__pic">
+                    </li>
+                    <li class="page__item different unique" data-aos="zoom-in-up">
+                        <img src="./sources/magiccity.svg" alt="advertisement" class="page__pic">
+                    </li>
+                </ul>
+                <div class="carousel-container">
+                    <div class="carousel-track"></div>  
+                </div>
+                <div class="navigation-dots" data-aos="zoom-in-up"></div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__complex">
+                <div class="footer__left">
+                    <a href="#"><img src="./sources/logo2.svg" alt="logo" class="logo__pic" data-aos="fade-up"
+     data-aos-duration="3000"></a>
+                    <p class="footer__text" data-aos="fade-up"
+     data-aos-duration="3000">
+                        Clemar – Представляем лучшие мировые бренды в
+                        Узбекистане
+                    </p>
+                </div>
+                <div class="footer__right">
+                    <ul class="footer__list" data-aos="fade-up"
+     data-aos-duration="3000">
+                        <li class="footer__item"><a href="#" class="footer__link">My Account</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">My Wishlist</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">My Cart</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Sing In</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Check Out</a></li>
+                    </ul>
+                    <ul class="footer__list box" data-aos="fade-up"
+     data-aos-duration="3000">
+                        <li class="footer__item">
+                            <a href="tel:635551212" class="footer__link">Phone: (+63) 555 1212</a>
+                            <a href="mailto:example@xxom.devolpers" class="footer__link">Fax: (+63) 555 0100</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">New York</a>
+                            <a href="#" class="footer__link">96th Street, NY 10129</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/page.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

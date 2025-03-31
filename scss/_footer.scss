@@ -1,0 +1,118 @@
+.footer .footer__complex{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+padding-top: 80px;
+padding-bottom: 40px;
+}
+.footer{
+    background: rgba(34, 34, 34, 1);
+}
+.footer__left{
+display: flex;
+flex-direction: column;
+gap: 45px;
+}
+.logo__pic{
+    max-width: 196px;
+        height: 42px;   
+}
+.footer__right{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer__text{
+font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        max-width: 388px;
+        font-size: 16px;
+        line-height: 26.4px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: rgba(255, 255, 255, 1);
+}
+.footer__link{
+font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26.4px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: rgba(255, 255, 255, 1);
+}
+.footer__item{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__link:hover{
+    color: red;
+}
+@media(max-width:1000px){
+    .footer__right {
+            
+            gap: 20px;
+        }
+                .footer__link {
+                    
+                    font-size: 12px;
+                     
+                }
+}
+@media(max-width:770px) {
+    .footer .footer__complex {
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+            gap: 40px;
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+    .footer__right {
+display: flex;
+flex-direction: column;
+        gap: 20px;
+    }
+    .footer__link {
+        font-size: 18px;
+    }
+        .footer__text {  
+            max-width: 550px;
+            font-size: 16px;            
+        }
+        .footer__left {
+            padding-top: 40px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+                  .footer__right {
+                      padding-top: 40px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      gap: 90px;
+                  }
+        .box{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer__item{
+            display: flex;
+                flex-direction: column;
+                
+                align-items: center;
+                justify-content: center
+        }
+}
